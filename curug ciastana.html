@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Curug Ciastana - Wisata Cianjur</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #2e8b57;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      background-color: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .main-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      align-items: start;
+    }
+
+    .main-content img {
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .main-content p {
+      text-align: justify;
+      line-height: 1.6;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      text-align: justify;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+      font-size: 1.1rem;
+    }
+
+    .gallery {
+      margin-top: 3rem;
+      text-align: center;
+    }
+
+    .gallery h2 {
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+      color: #2e8b57;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .gallery-grid img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-grid img:hover {
+      transform: scale(1.05);
+    }
+
+    .map-section {
+      margin-top: 3rem;
+      text-align: center;
+    }
+
+    .map-section h2 {
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+      color: #2e8b57;
+    }
+
+    .map-section img {
+      width: 100%;
+      max-width: 800px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .map-section a {
+      display: inline-block;
+      margin-top: 1rem;
+      background-color: #2e8b57;
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border-radius: 5px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .map-section a:hover {
+      background-color: #246c48;
+    }
+
+    a.back-link {
+      display: inline-block;
+      margin-top: 2.5rem;
+      color: #2e8b57;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a.back-link:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .main-content {
+        grid-template-columns: 1fr;
+      }
+
+      .gallery-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Curug Ciastana</h1>
+  </header>
+
+  <section>
+    <!-- Deskripsi Utama -->
+    <div class="main-content">
+      <img src="img/Curug Ciastana.jpg" alt="Curug Ciastana" />
+      <div>
+        <p>Curug Ciastana adalah sebuah air terjun yang menawan. Tinggi air terjun ini mencapai sekitar 50 meter, dan airnya mengalir deras, membentuk tirai alami yang memukau.</p>
+        <p>Di bawah air terjun utama, terdapat pula serangkaian air terjun kecil yang menambah pesona Curug Ciastana. Air terjun ini terletak di Kampung Sinar Muda, Desa Bojongkasih, Kecamatan Kadupandak, Kabupaten Cianjur, Jawa Barat.</p>
+
+        <ul>
+          <li><strong>Lokasi:</strong> Sinar Muda, Bojongkasih, Kec. Kadupandak, Kabupaten Cianjur, Jawa Barat 43268</li>
+          <li><strong>Harga Tiket:</strong> Rp10.000</li>
+          <li><strong>Fasilitas:</strong> Parkir, Toilet, Warung, Pusat Informasi</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Galeri Foto -->
+    <div class="gallery">
+      <h2>Galeri Foto Lainnya</h2>
+      <div class="gallery-grid">
+        <a href="img/ciastana1.jpg" data-lightbox="ciastana" data-title="Sudut lain Curug Ciastana">
+          <img src="img/ciastana1.jpg" alt="Sudut lain Curug Ciastana" />
+        </a>
+        <a href="img/ciastana2.jpg" data-lightbox="ciastana" data-title="Aliran deras dari Curug Ciastana">
+          <img src="img/ciastana2.jpg" alt="Aliran deras dari Curug Ciastana" />
+        </a>
+        <a href="img/ciastana3.jpg" data-lightbox="ciastana" data-title="Suasana sekitar Curug Ciastana">
+          <img src="img/ciastana3.jpg" alt="Suasana sekitar Curug Ciastana" />
+        </a>
+        <a href="img/ciastana4.jpg" data-lightbox="ciastana" data-title="Keindahan Curug Ciastana">
+          <img src="img/ciastana4.jpg" alt="Keindahan Curug Ciastana" />
+        </a>
+        <a href="img/ciastana5.jpg" data-lightbox="ciastana" data-title="Tebing Curug Ciastana">
+          <img src="img/ciastana5.jpg" alt="Tebing Curug Ciastana" />
+        </a>
+        <a href="img/ciastana6.jpg" data-lightbox="ciastana" data-title="Panorama alam Ciastana">
+          <img src="img/ciastana6.jpg" alt="Panorama alam Ciastana" />
+        </a>
+      </div>
+    </div>
+
+    <!-- Peta Lokasi -->
+    <div class="map-section">
+      <h2>Lokasi di Peta</h2>
+      <img src="img/maps-ciastana.png" alt="Peta Curug Ciastana" />
+      <a href="https://www.google.com/maps/place/Curug+Ciastana,+Bojongkasih,+Kec.+Kadupandak,+Kabupaten+Cianjur,+Jawa+Barat+43268" target="_blank">
+        📍 Buka di Google Maps
+      </a>
+    </div>
+
+    <!-- Kembali ke Beranda -->
+    <a class="back-link" href="index.html">← Kembali ke Beranda</a>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox.min.js"></script>
+</body>
+</html>

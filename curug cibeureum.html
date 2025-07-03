@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Curug Cibeureum - Wisata Cianjur</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #2e8b57;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      background-color: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .main-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      align-items: start;
+    }
+
+    .main-content img {
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .main-content p {
+      text-align: justify;
+      line-height: 1.6;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 1rem;
+      text-align: justify;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+      font-size: 1.1rem;
+    }
+
+    .gallery {
+      margin-top: 3rem;
+      text-align: center;
+    }
+
+    .gallery h2 {
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+      color: #2e8b57;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .gallery-grid img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-grid img:hover {
+      transform: scale(1.05);
+    }
+
+    .map {
+      margin-top: 3rem;
+      text-align: center;
+    }
+
+    .map h2 {
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+      color: #2e8b57;
+    }
+
+    .map img {
+      width: 100%;
+      max-width: 800px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .map a {
+      display: inline-block;
+      margin-top: 1rem;
+      background-color: #2e8b57;
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border-radius: 5px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .map a:hover {
+      background-color: #276f4a;
+    }
+
+    a.back-link {
+      display: inline-block;
+      margin-top: 2.5rem;
+      color: #2e8b57;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a.back-link:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .main-content {
+        grid-template-columns: 1fr;
+      }
+
+      .gallery-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Curug Cibeureum</h1>
+  </header>
+
+  <section>
+    <!-- Deskripsi Utama -->
+    <div class="main-content">
+      <img src="img/air terjun curug cibeureum.jpg" alt="Curug Cibeureum" />
+      <div>
+        <p>Air Terjun Cibeureum atau Curug Cibeureum adalah destinasi alam di kaki Gunung Gede Pangrango, dalam kawasan Taman Nasional. Jalur menuju curug ini juga dilewati pendaki Gunung Gede dari arah Cibodas.</p>
+        <p>Perjalanan sejauh 2,7 km menuju curug ditempuh dengan berjalan kaki sekitar 1 jam. Selama perjalanan, pengunjung disuguhi pemandangan indah, Telaga Biru, rawa Panyangcangan, serta jembatan panjang batu yang menjadi spot favorit berfoto.</p>
+        <ul>
+          <li><strong>Lokasi:</strong> JL. Cisarua Puncak KM. 10, Desa Cilember, Cimacan, Cipanas, Cianjur</li>
+          <li><strong>Harga Tiket:</strong> Rp18.500 / Orang</li>
+          <li><strong>Fasilitas:</strong> Parkir, Toilet, Warung</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Galeri Foto -->
+    <div class="gallery">
+      <h2>Galeri Foto Lainnya</h2>
+      <div class="gallery-grid">
+        <a href="img/cibeureum1.jpg" data-lightbox="cibeureum" data-title="Pemandangan sekitar Curug Cibeureum">
+          <img src="img/cibeureum1.jpg" alt="Pemandangan sekitar Curug Cibeureum" />
+        </a>
+        <a href="img/cibeureum2.jpg" data-lightbox="cibeureum" data-title="Jalur menuju Curug Cibeureum">
+          <img src="img/cibeureum2.jpg" alt="Jalur menuju Curug Cibeureum" />
+        </a>
+        <a href="img/cibeureum3.jpg" data-lightbox="cibeureum" data-title="Spot favorit wisatawan">
+          <img src="img/cibeureum3.jpg" alt="Spot favorit wisatawan" />
+        </a>
+        <a href="img/cibeureum4.jpg" data-lightbox="cibeureum" data-title="Spot favorit wisatawan">
+          <img src="img/cibeureum4.jpg" alt="Spot favorit wisatawan" />
+        </a>
+        <a href="img/cibeureum5.jpg" data-lightbox="cibeureum" data-title="Spot favorit wisatawan">
+          <img src="img/cibeureum5.jpg" alt="Spot favorit wisatawan" />
+        </a>
+        <a href="img/cibeureum6.jpg" data-lightbox="cibeureum" data-title="Spot favorit wisatawan">
+          <img src="img/cibeureum6.jpg" alt="Spot favorit wisatawan" />
+        </a>
+      </div>
+    </div>
+
+    <!-- Peta Lokasi -->
+    <div class="map">
+      <h2>Lokasi di Peta</h2>
+      <img src="img/maps-cibeureum.jpg" alt="Peta Curug Cibeureum" />
+      <a href="https://www.google.com/maps/place/Curug+Cibeureum/@-6.7372074,107.0031016,17z" target="_blank">
+        📍 Buka di Google Maps
+      </a>
+    </div>
+
+    <!-- Link Kembali -->
+    <a class="back-link" href="index.html">← Kembali ke Beranda</a>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox.min.js"></script>
+</body>
+</html>

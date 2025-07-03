@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Waduk Jangari - Wisata Cianjur</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #2e8b57;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      background-color: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .main-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      align-items: start;
+    }
+
+    .main-content img {
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .main-content p {
+      text-align: justify;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 1rem;
+      text-align: justify;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+      font-size: 1.1rem;
+    }
+
+    .gallery {
+      margin-top: 2.5rem;
+      text-align: center;
+    }
+
+    .gallery h2 {
+      color: #2e8b57;
+      margin-bottom: 1.5rem;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .gallery-grid img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-grid img:hover {
+      transform: scale(1.05);
+    }
+
+    .map-section {
+      margin-top: 3rem;
+      text-align: center;
+    }
+
+    .map-section h2 {
+      color: #2e8b57;
+      margin-bottom: 1rem;
+    }
+
+    .map-section img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .map-section a {
+      display: inline-block;
+      margin-top: 1rem;
+      background-color: #2e8b57;
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border-radius: 5px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .map-section a:hover {
+      background-color: #246c48;
+    }
+
+    a.back-link {
+      display: inline-block;
+      margin-top: 2.5rem;
+      color: #2e8b57;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a.back-link:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .main-content {
+        grid-template-columns: 1fr;
+      }
+
+      .gallery-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Waduk Jangari</h1>
+  </header>
+
+  <section>
+    <!-- Deskripsi -->
+    <div class="main-content">
+      <img src="img/jangari.jpg" alt="Waduk Jangari" />
+      <div>
+        <p>Waduk Jangari merupakan bagian dari genangan Waduk Cirata yang luasnya mencapai 62 kilometer persegi. Genangan ini terbentuk akibat pembangunan bendungan Sungai Citarum dan tersebar di tiga kabupaten: Cianjur, Purwakarta, dan Bandung.</p>
+        <p>Di Kabupaten Cianjur, area Jangari dan Calingcing menjadi kawasan wisata tirta yang berkembang pesat. Keduanya ramai dikunjungi wisatawan lokal karena menawarkan pengalaman berperahu, memancing, serta menikmati panorama air dan perbukitan.</p>
+        <p>Selain dua destinasi utama tersebut, kawasan Waduk Cirata memiliki potensi wisata lainnya seperti bendungan, teknologi PLTA, wisata agro, dan ekowisata hutan. Namun, potensi tersebut masih belum sepenuhnya dikembangkan. Waduk ini mencakup 43.777,6 hektar yang terdiri dari 37.577,6 hektar daratan dan 6.200 hektar wilayah perairan.</p>
+        <ul>
+          <li><strong>Lokasi:</strong> Desa Bobojong, Kec. Mande, Kabupaten Cianjur, Jawa Barat (±17 km dari pusat kota Cianjur)</li>
+          <li><strong>Harga Tiket:</strong> Rp5.000</li>
+          <li><strong>Fasilitas:</strong> Parkir, Toilet, Warung makan, Gazebo, Mushola</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Galeri Foto -->
+    <div class="gallery">
+      <h2>Galeri Foto Lainnya</h2>
+      <div class="gallery-grid">
+        <a href="img/jangari1.jpg" data-lightbox="jangari" data-title="Perahu wisata di Waduk Jangari">
+          <img src="img/jangari1.jpg" alt="Perahu wisata di Waduk Jangari" />
+        </a>
+        <a href="img/jangari2.jpg" data-lightbox="jangari" data-title="Panorama perairan Waduk Jangari">
+          <img src="img/jangari2.jpg" alt="Panorama perairan Waduk Jangari" />
+        </a>
+        <a href="img/jangari3.jpg" data-lightbox="jangari" data-title="Dermaga dan perahu motor">
+          <img src="img/jangari3.jpg" alt="Dermaga dan perahu motor" />
+        </a>
+        <a href="img/jangari4.jpg" data-lightbox="jangari" data-title="Aktivitas wisatawan di waduk">
+          <img src="img/jangari4.jpg" alt="Aktivitas wisatawan di waduk" />
+        </a>
+        <a href="img/jangari5.jpg" data-lightbox="jangari" data-title="Dermaga dan perahu motor">
+          <img src="img/jangari5.jpg" alt="Dermaga dan perahu motor" />
+        </a>
+        <a href="img/jangari6.jpg" data-lightbox="jangari" data-title="Dermaga dan perahu motor">
+          <img src="img/jangari6.jpg" alt="Dermaga dan perahu motor" />
+        </a>
+        <a href="img/jangari7.jpg" data-lightbox="jangari" data-title="Dermaga dan perahu motor">
+          <img src="img/jangari7.jpg" alt="Dermaga dan perahu motor" />
+        </a>
+      </div>
+    </div>
+
+    <!-- Peta Lokasi -->
+    <div class="map-section">
+      <h2>Lokasi di Peta</h2>
+      <img src="img/jangari.png" alt="Peta Lokasi Waduk Jangari" />
+      <a href="https://www.google.com/maps/place/Wisata+Jangari+Cirata/@-6.7201491,107.2457726,17z" target="_blank">
+        📍 Buka di Google Maps
+      </a>
+    </div>
+
+    <!-- Kembali ke Beranda -->
+    <div style="text-align: left;">
+      <a class="back-link" href="index.html">← Kembali ke Beranda</a>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox.min.js"></script>
+</body>
+</html>

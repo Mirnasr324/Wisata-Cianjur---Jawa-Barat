@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Curug Citambur - Wisata Cianjur</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #2e8b57;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      background-color: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .main-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      align-items: start;
+    }
+
+    .main-content img {
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .main-content p {
+      text-align: justify;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 1rem;
+      text-align: justify;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+      font-size: 1.1rem;
+    }
+
+    .gallery {
+      margin-top: 3rem;
+      text-align: center;
+    }
+
+    .gallery h3 {
+      color: #2e8b57;
+      margin-bottom: 1.5rem;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .gallery-grid img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-grid img:hover {
+      transform: scale(1.05);
+    }
+
+    .map-section {
+      margin-top: 3rem;
+      text-align: center;
+    }
+
+    .map-section h3 {
+      color: #2e8b57;
+      margin-bottom: 1rem;
+    }
+
+    .map-section img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .map-section a {
+      display: inline-block;
+      margin-top: 1rem;
+      background-color: #2e8b57;
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border-radius: 5px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .map-section a:hover {
+      background-color: #246c48;
+    }
+
+    a.back-link {
+      display: inline-block;
+      margin-top: 2.5rem;
+      color: #2e8b57;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a.back-link:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .main-content {
+        grid-template-columns: 1fr;
+      }
+
+      .gallery-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Curug Citambur</h1>
+  </header>
+
+  <section>
+    <!-- Deskripsi -->
+    <div class="main-content">
+      <img src="img/curug citambur.jpg" alt="Curug Citambur" />
+      <div>
+        <p>Curug Citambur adalah air terjun megah di Kabupaten Cianjur Selatan dengan tinggi sekitar 130 meter. Air terjun ini memiliki tiga tingkatan: 2 meter di bagian atas, 12 meter di tengah, dan 116 meter di bawah. Terletak di ketinggian ±1.400 mdpl, airnya sangat dingin dengan debit besar, terutama saat musim hujan.</p>
+        <p>Suasana sekitarnya sering berkabut dan suara air terjun terdengar menggelegar. Karena debit airnya besar dan tebingnya curam, pengunjung perlu berhati-hati bila ingin mendekat. Meski demikian, keindahan dan kealamian Curug Citambur menjadikannya salah satu destinasi alam yang wajib dikunjungi di Cianjur.</p>
+
+        <ul>
+          <li><strong>Lokasi:</strong> Desa Karangjaya, Kecamatan Pasirkuda, Kabupaten Cianjur, Jawa Barat</li>
+          <li><strong>Harga Tiket:</strong> Rp15.000</li>
+          <li><strong>Fasilitas:</strong> Parkir, Toilet, Warung, Area Foto</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Galeri Foto -->
+    <div class="gallery">
+      <h3>Galeri Foto Curug Citambur</h3>
+      <div class="gallery-grid">
+        <a href="img/citambur1.jpg" data-lightbox="citambur" data-title="Pemandangan Curug Citambur dari kejauhan">
+          <img src="img/citambur1.jpg" alt="Pemandangan Curug Citambur dari kejauhan" />
+        </a>
+        <a href="img/citambur2.jpg" data-lightbox="citambur" data-title="Tebing tinggi di sekitar air terjun">
+          <img src="img/citambur2.jpg" alt="Tebing tinggi di sekitar air terjun" />
+        </a>
+        <a href="img/citambur3.jpg" data-lightbox="citambur" data-title="Suasana kabut di sekitar Curug Citambur">
+          <img src="img/citambur3.jpg" alt="Suasana kabut di sekitar Curug Citambur" />
+        </a>
+        <a href="img/citambur4.jpg" data-lightbox="citambur" data-title="Air terjun utama Curug Citambur">
+          <img src="img/citambur4.jpg" alt="Air terjun utama Curug Citambur" />
+        </a>
+        <a href="img/citambur5.jpg" data-lightbox="citambur" data-title="Pemandangan sekitar air terjun">
+          <img src="img/citambur5.jpg" alt="Pemandangan sekitar air terjun" />
+        </a>
+        <a href="img/citambur6.jpg" data-lightbox="citambur" data-title="Curug Citambur dari sisi lain">
+          <img src="img/citambur6.jpg" alt="Curug Citambur dari sisi lain" />
+        </a>
+        <a href="img/citambur7.jpg" data-lightbox="citambur" data-title="Jalur trekking menuju curug">
+          <img src="img/citambur7.jpg" alt="Jalur trekking menuju curug" />
+        </a>
+        <a href="img/citambur8.jpg" data-lightbox="citambur" data-title="Spot foto di sekitar Curug Citambur">
+          <img src="img/citambur8.jpg" alt="Spot foto di sekitar Curug Citambur" />
+        </a>
+      </div>
+    </div>
+
+    <!-- Peta Lokasi -->
+    <div class="map-section">
+      <h3>Lokasi di Peta</h3>
+      <img src="img/citambur.png" alt="Peta Lokasi Curug Citambur" />
+      <a href="https://www.google.com/maps/place/Curug+Citambur,+Karangjaya,+Pasirkuda,+Kabupaten+Cianjur,+Jawa+Barat/" target="_blank">
+        📍 Buka di Google Maps
+      </a>
+    </div>
+
+    <!-- Kembali ke Beranda -->
+    <div style="text-align: left;">
+      <a class="back-link" href="index.html">← Kembali ke Beranda</a>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox.min.js"></script>
+</body>
+</html>

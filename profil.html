@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Admin</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #2e8b57;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+    .profil-container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .profil-container img {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #2e8b57;
+      margin-bottom: 20px;
+    }
+    .profil-container h2 {
+      margin-bottom: 10px;
+      color: #2e8b57;
+    }
+    .profil-container table {
+      margin: 0 auto 20px;
+      text-align: left;
+    }
+    .profil-container table td {
+      padding: 6px 10px;
+    }
+    .cta-button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #2e8b57;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .cta-button:hover {
+      background-color: #276c48;
+    }
+    footer {
+      background-color: #2e8b57;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      .profil-container img {
+        width: 120px;
+        height: 120px;
+      }
+      .profil-container table td {
+        display: block;
+        width: 100%;
+        padding: 4px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Profil Admin</h1>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="wisata.html">Destinasi</a>
+      <a href="kontak.html">Kontak</a>
+      <a href="profil.html">Profil</a>
+    </nav>
+  </header>
+
+  <section class="profil-container">
+    <img src="img/profil.jpg" alt="Foto Admin">
+    <h2>Mirna S Rahayu</h2>
+    <table>
+      <tr>
+        <td><strong>Nama Lengkap</strong></td>
+        <td>: Mirna Sri Rahayu</td>
+      </tr>
+      <tr>
+        <td><strong>NIM</strong></td>
+        <td>: 221011450212</td>
+      </tr>
+      <tr>
+        <td><strong>Program Studi</strong></td>
+        <td>: Teknik Informatika</td>
+      </tr>
+      <tr>
+        <td><strong>Universitas</strong></td>
+        <td>: Universitas Pamulang</td>
+      </tr>
+      <tr>
+        <td><strong>Email</strong></td>
+        <td>: mirnasrhyu03@gmail.com</td>
+      </tr>
+      <tr>
+        <td><strong>No. Telepon</strong></td>
+        <td>: 0859-1096-81523</td>
+      </tr>
+    </table>
+    <a href="index.html" class="cta-button">← Kembali ke Beranda</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mirna S Rahayu. Semua Hak Dilindungi.</p>
+  </footer>
+
+</body>
+</html>
